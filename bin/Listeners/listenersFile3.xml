@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Listeners testSuite 3">
+ <listeners>
+   <listener class-name="Listeners.CustomListener3"></listener>
+ </listeners>
+  <test name = "Listeners Test Case 1">
+    <classes>
+      <class name="Listeners.TestNG_ListenersTest1_3"></class>
+    </classes>
+  </test>
+  
+  <test name = "Listeners Test Case 2">
+    <classes>
+      <class name="Listeners.TestNG_ListenersTest2_3"></class>
+    </classes>
+  </test>
+</suite>
